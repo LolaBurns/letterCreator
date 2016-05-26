@@ -13,6 +13,7 @@ $(document).ready(function() {
     $(".zip").text(zipInput);
 
     $("#letter").show();
+    $("#user-data").hide();
 
     event.preventDefault();
   });
